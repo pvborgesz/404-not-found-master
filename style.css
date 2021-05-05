@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+h4{
+    color:rgb(0, 0, 0);
+    font-family: 'Inconsolata', monospace;
+}
+.container{ 
+    display:flex;
+    justify-content: space-between;
+   /* border: 1px solid red; tipo um printf pra saber o que ta fazendo*/
+}
+.content>img{
+    height: 400px;
+    width: 400px;
+}
+.content{
+    margin-top: 50px;
+    display:flex;
+}
+.text{
+    color:#333;
+    font-family: 'Space Mono', monospace;
+    display:flex;
+    flex-direction: column;
+    padding: 18px 24px;
+    width:400px;
+}
+.text>a{
+    display:flex;
+    background-color: #333;
+    color: #fff;
+    justify-content: center; /*mesma coisa de align*/
+    text-decoration: none;
+    margin-top:40px;
+    width: 216px;
+    height: 68px;
+    align-items: center;
+}
+a:hover{
+    color:cadetblue;
+    transition: 0.2s;
+}
+footer {
+    font-family: 'Montserrat';
+    font-size: 14px;
+
+    width: 100%;
+  }
+footer p, footer a {
+    color: #BDBDBD;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+button {
+    border:none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+button:hover{
+    opacity: 0.9;
+    color:rgb(58, 58, 58)
+}
+
+
+
+/* classes são referidas com um "." , estamos nos referindo da div container*/
